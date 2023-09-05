@@ -24,6 +24,32 @@
 
 - type: entity
   parent: BaseHyperlinkBook
+  id: HyperlinkBookStandardOperatingProcedure
+  name: Standard Operating Procedure
+  description: A big book containing all standard operating procedures for Nanotrasen space stations.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/Objects/Misc/books.rsi/book_sop.png
+    layers:
+    - state: law_space
+  - type: HyperlinkBook
+    url: https://wiki.delta-v.org/view/Standard_Operating_Procedure
+    
+- type: entity
+  parent: BaseHyperlinkBook
+  id: HyperlinkBookContrabandIdentification
+  name: Contraband Identification
+  description: A red book containing detailed instructions on identifying contraband.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/Objects/Misc/books.rsi/book_contraband.png
+    layers:
+    - state: law_space
+  - type: HyperlinkBook
+    url: https://wiki.delta-v.org/view/Syndicate_Items
+
+- type: entity
+  parent: BaseHyperlinkBook
   id: HyperlinkBookSupernanny
   name: book of unsanctioned space punishments
   description: The ravings of a madman.
